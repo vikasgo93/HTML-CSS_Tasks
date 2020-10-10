@@ -1,0 +1,60 @@
+.container {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+
+td {
+	padding: 10px;
+}
+
+img {
+	height: 177px;
+	width: 284px;
+}
+
+.priceTable {
+	width: 100%;
+}
+
+.rightAlign {
+	text-align: right;
+}
+.priceTable td {
+	border: none;
+}
+
+button {
+	background-color:green;
+	color: white;
+	padding: 7px;
+	border: none;
+	border-radius: 5px;
+
+}
+
+@media only screen and (max-width: 962px) {
+  .container {
+    margin-left: 10%;
+  }
+  table, tbody, td, tr { 
+		display: block; 
+	}
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+		padding-left: 50%; 
+	}
+
+	.priceTable{
+		width: 30%;
+	}
+
+	.priceTable td {
+		padding: 0;
+	}s
+	
+
+}
